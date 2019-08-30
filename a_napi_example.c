@@ -20,7 +20,7 @@ napi_value print (napi_env env, napi_callback_info info) {
     return NULL;
   }
 
-  printf("Printed from C: %s\n", str);
+  printf("Sample output: %s\n", str);
 
   return NULL;
 }
